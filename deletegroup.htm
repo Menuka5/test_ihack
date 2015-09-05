@@ -39,7 +39,7 @@
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
 		
 		<ul class="nav menu">
-			<li class="active"><a href="adminpanel.html"><span class="glyphicon glyphicon-dashboard"></span> My Profile</a></li>
+			<li class=""><a href="adminpanel.html"><span class="glyphicon glyphicon-dashboard"></span> My Profile</a></li>
             <li class="parent ">
 
 				<a href="#">
@@ -47,17 +47,17 @@
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					<li>
-						<a class="" href="#">
-							<span class="glyphicon glyphicon-share-alt"></span> Add Moderator
+						<a class="" href="addmoderate.html">
+							<span class="glyphicon glyphicon-share-alt"></span>  Add Moderator
 						</a>
 					</li>
 					<li>
-						<a class="" href="#">
+						<a class="" href="deletemoderate.html">
 							<span class="glyphicon glyphicon-share-alt"></span> Remove Moderator
 						</a>
 					</li>
 					<li>
-						<a class="" href="#">
+						<a class="" href="showmoderate.htm">
 							<span class="glyphicon glyphicon-share-alt"></span> Show Moderator
 						</a>
 					</li>
@@ -66,25 +66,25 @@
             
             
 			
-			<li class="parent ">
+			<li class="parent active">
 				<a href="#">
 					<span class="glyphicon glyphicon-list"></span> <span data-toggle="collapse" href="#sub-item-2"> Groups </span><span data-toggle="collapse" href="#sub-item-2" class="icon pull-right"><em class="glyphicon glyphicon-s glyphicon-plus"></em></span> 
 				</a>
 				<ul class="children collapse" id="sub-item-2">
 					<li>
-						<a class="" href="#">
+						<a class="" href="showgroup.htm">
 							<span class="glyphicon glyphicon-share-alt"></span> Show Groups
 						</a>
 					</li>
 					<li>
-						<a class="" href="#">
+						<a class="" href="creategroup.htm">
 							<span class="glyphicon glyphicon-share-alt"></span> Create Group
 						</a>
 					</li>
 					<li>
-						<a class="" href="#">
-							<span class="glyphicon glyphicon-share-alt"></span> Delete Group
-						</a>
+						<a class="active" href="deletegroup.htm">
+							<font color="white" ><span class="glyphicon glyphicon-share-alt"></span> Delete Group
+						</a></font>
 					</li>
 				</ul>
 			</li>
@@ -100,23 +100,24 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-				<li class="active">My Profile</li>
+				<li class="active"> Remove Group </li>
 			</ol>
 		</div><!--/.row-->
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="page-header">My Profile</h2>
-
-            <table class="table table-striped"
-            style="padding: 100px;">
-            <tr><td><b>First Name :</b></td><td></td></tr>
-            <tr><td><b>Last Name :</b></td><td></td></tr>
-            <tr><td><b>Contact No :</b></td><td></td></tr>
-            <tr><td><b>Email :</b></td><td></td></tr>
+				<h2 class="page-header">Remove Group</h2>
+            <center>
+            <table class="table">
+            <tr>
+            <td><b><font size="5"> <center> Search Group </center></font> </b></td>
+            <td> <center> <input type="text" class="form-control" id="usr"></center></td>
+            <td> <center> <a href="#" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-search"></span> Search Group</a></center></td>
+            </tr>
             </table>
+            </center>
             <br />
             <br />
-            <center><button class="btn btn-primary btn-large"><a href="#"><b><font color="white">Update Profile</font> </b></a></button></center>
+            
         
 			</div>
 		</div>
