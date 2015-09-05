@@ -39,8 +39,8 @@
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
 		
 		<ul class="nav menu">
-			<li class="active"><a href="adminpanel.html"><span class="glyphicon glyphicon-dashboard"></span> My Profile</a></li>
-            <li class="parent ">
+			<li class=""><a href="adminpanel.html"><span class="glyphicon glyphicon-dashboard"></span> My Profile</a></li>
+            <li class="parent active">
 
 				<a href="#">
 					<span class="glyphicon glyphicon-list"></span><span href="#sub-item-1"> <span data-toggle="collapse" href="#sub-item-1"> Moderator </span></span><span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="glyphicon glyphicon-s glyphicon-plus"></em></span> 
@@ -48,13 +48,13 @@
 				<ul class="children collapse" id="sub-item-1">
 					<li>
 						<a class="" href="addmoderate.html">
-							<span class="glyphicon glyphicon-share-alt"></span> Add Moderator
+							<span class="glyphicon glyphicon-share-alt"></span>  Add Moderator
 						</a>
 					</li>
 					<li>
-						<a class="" href="deletemoderate.html">
-							<span class="glyphicon glyphicon-share-alt"></span> Remove Moderator
-						</a>
+						<a class="active" href="deletemoderate.html">
+							<font color="white" ><span class="glyphicon glyphicon-share-alt"></span> Remove Moderator
+						</a></font>
 					</li>
 					<li>
 						<a class="" href="showmoderate.htm">
@@ -100,23 +100,24 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-				<li class="active">My Profile</li>
+				<li class="active">Remove Moderator</li>
 			</ol>
 		</div><!--/.row-->
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="page-header">My Profile</h2>
-
-            <table class="table table-striped"
-            style="padding: 100px;">
-            <tr><td><b>First Name :</b></td><td></td></tr>
-            <tr><td><b>Last Name :</b></td><td></td></tr>
-            <tr><td><b>Contact No :</b></td><td></td></tr>
-            <tr><td><b>Email :</b></td><td></td></tr>
+				<h2 class="page-header">Remove Moderator</h2>
+            <center>
+            <table class="table">
+            <tr>
+            <td><b><font size="5"> <center> Search User</center></font> </b></td>
+            <td> <center> <input type="text" class="form-control" id="usr"></center></td>
+            <td> <center> <a href="#" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-search"></span> Search User</a></center></td>
+            </tr>
             </table>
+            </center>
             <br />
             <br />
-            <center><button class="btn btn-primary btn-large"><a href="#"><b><font color="white">Update Profile</font> </b></a></button></center>
+            
         
 			</div>
 		</div>
