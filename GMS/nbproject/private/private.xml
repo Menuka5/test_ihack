@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/janaka/NetBeansProjects/GMS/src/java/gms/model/Group_details_model.java</file>
+            <file>file:/home/janaka/NetBeansProjects/GMS/web/creategroup.jsp</file>
+            <file>file:/home/janaka/NetBeansProjects/GMS/src/java/gms/controller/Person_details_controller.java</file>
+            <file>file:/home/janaka/NetBeansProjects/GMS/web/index.jsp</file>
+            <file>file:/home/janaka/NetBeansProjects/GMS/src/java/gms/model/Person_details_model.java</file>
+            <file>file:/home/janaka/NetBeansProjects/GMS/web/adminpanel.jsp</file>
+            <file>file:/home/janaka/NetBeansProjects/GMS/src/java/gms/servlet/ValidateLoginServlet.java</file>
+            <file>file:/home/janaka/NetBeansProjects/GMS/web/deletegroup.jsp</file>
+            <file>file:/home/janaka/NetBeansProjects/GMS/src/java/gms/controller/Group_details_controller.java</file>
+            <file>file:/home/janaka/NetBeansProjects/GMS/src/java/gms/servlet/createGroupServlet.java</file>
+        </group>
+    </open-files>
+</project-private>
